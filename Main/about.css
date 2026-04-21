@@ -47,7 +47,7 @@ header{
 }
 
 #rooftop{
-    background-image: url("Imgs/banner-bg.png");
+    background-image: url("../Imgs/banner-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-position: center top;
@@ -68,7 +68,7 @@ header{
 
 .Rooftop{
     font-size: 72px;
-    font-family: " Playfair Display", sans-serif;
+    font-family: "Playfair Display", sans-serif;
 }
 
 .textp{
