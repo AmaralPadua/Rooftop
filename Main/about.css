@@ -1,0 +1,244 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+li{
+    list-style: none;
+    font-style: bold;
+
+}
+
+header{
+    text-align: center;
+    padding: 10px 0px;
+    font-family: 'roboto', sans-serif;
+    font-style: bold;
+    flex-direction: row;
+    display: flex;
+    font-size: 13px;
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    gap:60px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+    box-shadow: #24242486 0 5px 50px;
+}
+
+#listLogo {
+    width: 22%;
+}
+
+.logo{
+    height: 79.38px;
+    width: 66.81px;
+}
+
+.logoa{
+    text-decoration: none;
+    color: black;
+}
+
+.logoa:hover{
+    color: #ad9966;
+}
+
+#rooftop{
+    background-image: url("../Imgs/banner-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100%;
+    height: 840px;
+    position: static;
+
+}
+
+.txtImg{        
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.Rooftop{
+    font-size: 72px;
+    font-family: " Playfair Display", sans-serif;
+}
+
+.textp{
+    font-size: 18px;
+    font-family: 'roboto', sans-serif;
+}
+
+.linhaBranca{
+    margin: 20px auto;
+    width: 350px;
+    border-width: 0.5px 0 0 0;
+    border-style: solid;
+    border-color: white;
+}
+
+.massa{
+    height: 729px;
+    width: 540px;
+    margin-top: 20px;
+    margin-left: 400px;
+
+}
+
+.book{
+    margin-top: 10px;
+    font-size: 30px;
+    position: absolute;
+    text-align: left;
+    margin-left: 1300px;
+    margin-bottom: 450px;
+}
+
+.Lorem{
+    font-size: 22px;
+    font-family: 'roboto', sans-serif;
+}
+.c01{
+    display: flex;
+}
+
+.carrossel { 
+             position: relative;
+             width: 60%;
+             margin: auto;
+             margin-top: 350px;}
+
+.imgcarroceu {  width: 100%;
+                height: 370px;
+                object-fit: cover;
+                margin-bottom: 50px;
+            }
+
+.textofoto2 { position: absolute;
+              top: 45%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              text-align: center;
+              background: rgba(255, 255, 255, 0.8);
+              padding: 30px 50px;}
+
+.textofoto2 h1 { font-size: 26px;
+                 font-family: 'Times New Roman', Times, serif;}
+
+.textofoto2 hr { margin: 20px auto;
+                 width: 160px;
+                 border: 1px solid #777777
+                 }
+
+
+.textofoto2 p { font-size: 14px;
+                 font-family: 'Times New Roman', Times, serif;
+                 color: #777777;
+                 }
+             
+.textChef {
+        font-size: 19px;
+        margin-top: 20px;
+        width: 650px;
+        margin-left: 400px;
+        letter-spacing: 0.5px;
+        line-height: 40px;
+}
+
+.chefs{
+        text-align: left;
+        line-height: 100px;
+}
+
+.chefsp {
+        margin-bottom: 40px;
+}
+
+.signature{
+        margin-left: 400px;
+}
+
+.chef {
+        text-align: right;
+        margin-top: -600px;
+        margin-right: 300px;
+}
+
+.rodape {
+  background-color: #04091e;
+  padding: 150px 0;
+  margin-top: 15%;
+  display: flex;
+  justify-content: center;
+  gap: 80px;}
+
+
+.TOP,
+.quick,
+.features,
+.resources,
+.newsletter {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 20px;}
+
+.textoTOP,
+.textoquick,
+.textofeatures,
+.textoresources,
+.textonewsletter {
+  color: #888;
+  font-size: 14px;}
+
+button {
+  background: none;
+  border: none;
+  color: #888;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  color: #ad9966;
+}
+
+.textorodape {
+  position: absolute;
+  color: #888;
+  font-size: 14px;
+  margin-top: 10%;
+  left: 23%;
+}
+
+.textorodape span,
+.textorodape a {
+  color: #ad9966;
+  text-decoration: none;
+}
+
+.newsletter p {
+  color: #888;
+}
+
+.newsletter input {
+  padding: 13px;
+  border: 1px solid #333;
+  background: transparent;
+  color: #888;
+}
+
+.newsletter button {
+  margin-top: -42px;
+  margin-left: 200px;
+  padding: 13px;
+  background-color: #ad9966;
+  color: white;
+}

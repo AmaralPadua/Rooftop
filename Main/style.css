@@ -1,0 +1,484 @@
+*{
+        padding: 0%;
+        margin: 0%;
+}
+li{
+        list-style: none;
+        font-style: bold;
+
+}
+
+header{
+        text-align: center;
+        padding: 10px 0px;
+        font-family: 'roboto', sans-serif;
+        font-style: bold;
+        flex-direction: row;
+        display: flex;
+        font-size: 13px;
+        padding: 10px 0px;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10px;
+        gap:60px;
+        position: sticky;
+        top: 0;
+        background-color: white;
+        z-index: 999;
+        box-shadow: #24242486 0 5px 50px;
+}
+
+#listLogo {
+        width: 22%;
+}
+
+.logo{
+        height: 79.38px;
+        width: 66.81px;
+}
+
+.logoa{
+        text-decoration: none;
+        color: black;
+}
+
+.logoa:hover{
+        color: #ad9966;
+}
+
+#rooftop{
+        background-image: url("../Imgs/background.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position: center top;
+        width: 100%;
+        height: 840px;
+        position: static;
+
+}
+
+.txtImg{        
+        text-align: center;
+        color: white;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+}
+
+.Rooftop{
+        font-size: 72px;
+        font-family: " Playfair Display", sans-serif;
+}
+
+.textp{
+        font-size: 18px;
+        font-family: 'roboto', sans-serif;
+}
+
+.linhaBranca{
+        margin: 20px auto;
+        width: 350px;
+        border-width: 0.5px 0 0 0;
+        border-style: solid;
+        border-color: white;
+}
+
+aside{
+        position: fixed;
+        top: 260px;
+        display: block;
+        text-align: right;
+        padding: 0;
+}
+
+#direita{
+        position: fixed;
+        top: 35%;
+        left: 0;
+        text-align: right;
+        padding: 0;
+        background-image: url(../Imgs/retangulo-direita.png);
+        width: 92px;
+        height: 180px;
+}
+
+.textp{
+        font-size: 13px;
+        padding-right: 10px;
+}
+
+#direita p:first-child{
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
+        transform: rotate(90deg);
+}
+
+.linkDireita{
+        text-decoration: none;
+        color: white;
+}
+
+.linkDireita:hover{
+        color: #000000;
+}
+
+#direita p:first-child{
+        position: absolute;
+        top: 45%;
+        left: 0%;
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
+        transform: rotate(90deg);
+        transition: 0.3s;
+}
+
+#direita:hover p:first-child{
+        position: absolute;
+        top: 45%;
+        left: 0%;
+        transform: translate(-10%,-10%) scale(0.8);
+        white-space: nowrap;
+}
+
+#esquerda{
+        background-image: url(../Imgs/retangulo-esquerda.png); position: fixed;
+        top: 35%;
+        right: 0;
+        text-align: left;
+        padding: 0;
+        width: 92px;
+        height: 180px;
+}
+
+#esquerda p:first-child{
+        position: absolute;
+        top: 45%;
+        left: 0%;
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
+        transform: rotate(-90deg);
+        transition: 0.3s;
+}
+
+#esquerda:hover p:first-child{
+        position: absolute;
+        top: 45%;
+        left: 0%;
+        transform: translate(-10%,10%) scale(0.8);
+        white-space: nowrap;
+}
+
+
+
+
+.linkEsquerda{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+}
+
+.linkEsquerda:hover{
+        color: #ad9966;
+}
+
+h1 span {
+        display: block;
+        letter-spacing: 3px;
+        font-weight: 300;
+        font-size:48px;
+        font-family: "Playfair Display", serif;
+}
+
+
+
+#cardapio{
+    height: 900px;
+    width: 550px;
+    position: absolute;
+    top: 850px;
+    right: 400px;
+    padding-top: 120px;
+    text-align: center;
+    background-color: #faf5f0;
+    padding-left: 23px;
+}
+
+.iten{
+        margin-top: 70px;
+        font-size: 15px;
+}
+
+.desc{
+        margin-top: 10px;
+        font-size: 15px;
+        color: #777777;
+        margin-bottom: 120px;
+}
+
+.titulo{
+        font-size: 21px;
+        font-family: "Playfair Display", serif;
+        border-bottom: 1px solid #00000033;
+        display: inline-block;;
+}
+
+#daily {
+        margin-left: 400px;
+        width: 475px;
+}
+
+#daily h1 span {
+        line-height: 70px;
+        font-size: 48px;
+        margin-bottom: 10px;
+}
+
+#daily p{
+        margin-bottom: 30px;
+        line-height: 24px;
+}
+
+.botao{
+        margin-left: 400px;
+        margin-top: 50px;
+        text-decoration: none;
+        padding: 15px 20px;
+        background-color: #ad9966;
+        font-size: 23px;
+        transition: 0.3s;
+        margin-right: 30px;
+        border: solid, 1px;
+        border-color: white;
+        color: white;
+        position: absolute;
+}
+
+.botao:hover{
+        background-color: white;
+        color: #ad9966;
+        border: solid, 1px;
+        border-color: #ad9966;
+}       
+
+.botaoLink{
+        text-decoration: none;
+        color: white;
+}
+
+.botao:hover .botaoLink{
+        color: #ad9966;
+}
+
+.sushi { margin: 0 auto;
+         margin-top: 430px;
+         display: block;
+         margin-left: 400px; 
+}
+
+.massa {  margin: 0 auto;
+          display: block;
+          margin-top: -400px;
+          margin-left: 990px;
+}
+
+.biscoito { margin: 0 auto;
+            display: block;
+            margin-top: -120px;
+            margin-left: 500px; 
+}
+
+.salada { margin: 0 auto;
+          display: block;
+          margin-top: -410px;
+          margin-left: 990px; 
+}
+
+.bancodedados {
+  position: relative;
+  width: 74%;
+  top: 130px;
+
+
+}
+
+.dados {
+  width: 700px;
+  padding: 40px;
+  margin: auto;
+  padding-top: 150px;
+  padding-bottom: 400px;
+}
+
+.dados input,
+.dados select,
+.dados textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: white;
+  font-size: 14px;
+}
+
+.linha {
+  display: flex;
+  gap: 15px;
+}
+
+.botao2 {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border: none;
+  float: right;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.book {
+  position: absolute;
+  top: 3550px;
+  left: 1200px;
+  font-size: 50px;
+  text-align: left;
+}
+
+.textobook {
+  font-size: 19px;
+  margin-top: 20px;
+}
+
+.textChef {
+        font-size: 19px;
+        margin-top: 20px;
+        width: 650px;
+        margin-left: 400px;
+        letter-spacing: 0.5px;
+        line-height: 40px;
+}
+
+.chefs{
+        text-align: left;
+        line-height: 60px;
+}
+
+.chefsp {
+        margin-bottom: 40px;
+}
+
+.signature{
+        margin-left: 400px;
+}
+
+.chef {
+        text-align: right;
+        margin-top: -600px;
+        margin-right: 200px;
+}
+
+.carrossel { 
+             position: relative;
+             width: 60%;
+             margin: auto;
+             margin-top: 350px;}
+
+.imgcarroceu {  width: 100%;
+                height: 370px;
+                object-fit: cover;}
+
+.textofoto2 { position: absolute;
+              top: 45%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              text-align: center;
+              background: rgba(255, 255, 255, 0.8);
+              padding: 30px 50px;}
+
+.textofoto2 h1 { font-size: 26px;
+                 font-family: 'Times New Roman', Times, serif;}
+
+.textofoto2 hr { margin: 20px auto;
+                 width: 160px;
+                 border: 1px solid #777777
+                 }
+
+
+.textofoto2 p { font-size: 14px;
+                 font-family: 'Times New Roman', Times, serif;
+                 color: #777777;
+                 }
+
+.rodape {
+  background-color: #04091e;
+  padding: 150px 0;
+  margin-top: 15%;
+  display: flex;
+  justify-content: center;
+  gap: 80px;}
+
+
+.TOP,
+.quick,
+.features,
+.resources,
+.newsletter {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 20px;}
+
+.textoTOP,
+.textoquick,
+.textofeatures,
+.textoresources,
+.textonewsletter {
+  color: #888;
+  font-size: 14px;}
+
+button {
+  background: none;
+  border: none;
+  color: #888;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  color: #ad9966;
+}
+
+.textorodape {
+  position: absolute;
+  color: #888;
+  font-size: 14px;
+  margin-top: 10%;
+  left: 23%;
+}
+
+.textorodape span,
+.textorodape a {
+  color: #ad9966;
+  text-decoration: none;
+}
+
+.newsletter p {
+  color: #888;
+}
+
+.newsletter input {
+  padding: 13px;
+  border: 1px solid #333;
+  background: transparent;
+  color: #888;
+}
+
+.newsletter button {
+  margin-top: -42px;
+  margin-left: 200px;
+  padding: 13px;
+  background-color: #ad9966;
+  color: white;
+}
