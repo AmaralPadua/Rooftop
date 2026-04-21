@@ -47,7 +47,7 @@ header{
 }
 
 #rooftop{
-        background-image: url("../Imgs/background.png");
+        background-image: url("Imgs/background.png");
         background-position: center;
         background-repeat: no-repeat;
         background-position: center top;
@@ -98,7 +98,7 @@ aside{
         left: 0;
         text-align: right;
         padding: 0;
-        background-image: url(../Imgs/retangulo-direita.png);
+        background-image: url(Imgs/retangulo-direita.png);
         width: 92px;
         height: 180px;
 }
@@ -145,7 +145,7 @@ aside{
 }
 
 #esquerda{
-        background-image: url(../Imgs/retangulo-esquerda.png); position: fixed;
+        background-image: url(Imgs/retangulo-esquerda.png); position: fixed;
         top: 35%;
         right: 0;
         text-align: left;
